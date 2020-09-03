@@ -18,7 +18,6 @@ class Store {
       data: {
         $$state: options.state
       }
-      // computed
     })
 
     this.commit = this.commit.bind(this)
