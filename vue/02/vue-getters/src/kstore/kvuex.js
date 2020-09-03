@@ -27,7 +27,7 @@ class Store {
     // 响应式的属性怎么设置？
     // 可以利用Vue computed特性
     this.getters = {}
-    //天王盖地虎
+    // 天王盖地虎
     forEachValue(options.getters, (fn, name) => {
       Object.defineProperty(this.getters, name, {
         get: () => {
